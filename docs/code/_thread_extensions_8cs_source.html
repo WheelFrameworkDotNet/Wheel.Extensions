@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Wheel.Extensions: Fichero Fuente src/Threading/ThreadExtensions.cs</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Logo_Small.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Wheel.Extensions
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li><a href="annotated.html"><span>Clases</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_35131c554cae814275e961d39d711f87.html">Threading</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">ThreadExtensions.cs</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keyword">using</span> <a class="code" href="namespace_system.html">System</a>;</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="keyword">using</span> <a class="code" href="namespace_system.html">System</a>.Threading;</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno"><a class="line" href="namespace_wheel_1_1_extensions_1_1_threading.html">    4</a></span>&#160;<span class="keyword">namespace </span><a class="code" href="namespace_wheel.html">Wheel</a>.Extensions.Threading</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div><div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="class_wheel_1_1_extensions_1_1_threading_1_1_thread_extensions.html">   29</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">class </span><a class="code" href="class_wheel_1_1_extensions_1_1_threading_1_1_thread_extensions.html">ThreadExtensions</a></div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    {</div><div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="class_wheel_1_1_extensions_1_1_threading_1_1_thread_extensions.html#aecb7a7c9471cd59db0fb55fc5ddfcccc">   57</a></span>&#160;        <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="class_wheel_1_1_extensions_1_1_threading_1_1_thread_extensions.html#aecb7a7c9471cd59db0fb55fc5ddfcccc">Guardar</a>(<span class="keyword">this</span> Thread hilo, <span class="keywordtype">string</span> nombre, <span class="keywordtype">object</span> data)</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        {</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;            LocalDataStoreSlot slot = Thread.GetNamedDataSlot(nombre);</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;            <span class="keywordflow">if</span> (slot == null)</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;            {</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                slot = Thread.AllocateNamedDataSlot(nombre);</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;            }</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;            Thread.SetData(slot, data);</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        }</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div><div class="line"><a name="l00093"></a><span class="lineno"><a class="line" href="class_wheel_1_1_extensions_1_1_threading_1_1_thread_extensions.html#a5d11911253a2e5cd7f4185a0786ab952">   93</a></span>&#160;        <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">object</span> <a class="code" href="class_wheel_1_1_extensions_1_1_threading_1_1_thread_extensions.html#a5d11911253a2e5cd7f4185a0786ab952">Obtener</a>(<span class="keyword">this</span> Thread hilo, <span class="keywordtype">string</span> nombre)</div><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        {</div><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;            var slot = Thread.GetNamedDataSlot(nombre);</div><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;            <span class="keywordflow">return</span> Thread.GetData(slot);</div><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        }</div><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    }</div><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;}</div><div class="ttc" id="namespace_wheel_html"><div class="ttname"><a href="namespace_wheel.html">Wheel</a></div></div>
+<div class="ttc" id="namespace_system_html"><div class="ttname"><a href="namespace_system.html">System</a></div></div>
+<div class="ttc" id="class_wheel_1_1_extensions_1_1_threading_1_1_thread_extensions_html"><div class="ttname"><a href="class_wheel_1_1_extensions_1_1_threading_1_1_thread_extensions.html">Wheel.Extensions.Threading.ThreadExtensions</a></div><div class="ttdoc">Clase con métodos de extensión para un hilo o subproceso (Thread). </div><div class="ttdef"><b>Definition:</b> <a href="_thread_extensions_8cs_source.html#l00029">ThreadExtensions.cs:29</a></div></div>
+<div class="ttc" id="class_wheel_1_1_extensions_1_1_threading_1_1_thread_extensions_html_aecb7a7c9471cd59db0fb55fc5ddfcccc"><div class="ttname"><a href="class_wheel_1_1_extensions_1_1_threading_1_1_thread_extensions.html#aecb7a7c9471cd59db0fb55fc5ddfcccc">Wheel.Extensions.Threading.ThreadExtensions.Guardar</a></div><div class="ttdeci">static void Guardar(this Thread hilo, string nombre, object data)</div><div class="ttdoc">Guarda un objeto o valor en un espacio de memoria disponible sólo para el hilo actual. </div><div class="ttdef"><b>Definition:</b> <a href="_thread_extensions_8cs_source.html#l00057">ThreadExtensions.cs:57</a></div></div>
+<div class="ttc" id="class_wheel_1_1_extensions_1_1_threading_1_1_thread_extensions_html_a5d11911253a2e5cd7f4185a0786ab952"><div class="ttname"><a href="class_wheel_1_1_extensions_1_1_threading_1_1_thread_extensions.html#a5d11911253a2e5cd7f4185a0786ab952">Wheel.Extensions.Threading.ThreadExtensions.Obtener</a></div><div class="ttdeci">static object Obtener(this Thread hilo, string nombre)</div><div class="ttdoc">Obtiene un objeto guardado en el hilo actual. </div><div class="ttdef"><b>Definition:</b> <a href="_thread_extensions_8cs_source.html#l00093">ThreadExtensions.cs:93</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>
